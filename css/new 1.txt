@@ -1,0 +1,5 @@
+nav {
+	background-image: url('../img/photo4.jpg'); /*METTRE UNE IMAGE OU DE LA COULEUR (COLOR) EN ARRIERE PLAN */
+	height: 50px;	
+	padding: 10px;
+}

@@ -1,0 +1,110 @@
+body {
+	font-family: Comic Sans Ms;
+}
+
+h1 {
+	color: #663399;
+	text-align: center; /* ALIGNER LE TEXTE (LEFT, CENTER, RIGHT, JUSTIFY) */
+	letter-spacing: 3px; /* ESPACER LE LETTRES ENTRE-ELLES */
+	text-transform: uppercase; /* METTRE EN MAJ */
+	font-size: 46px;
+}
+
+#Monpremiertitre {
+	font-family: arial;
+}
+
+#Mondeuxiemetitre {
+	font-family: impact;
+	color: grey;
+	text-align: left;
+	font-weight: bold; /* RETIRER LE GRAS (BOLD, EN AJOUTER) */
+	border: 5px groove #663399; /*CREER UN CADRE */
+	border-radius: 10px 0 10px 0; /* ARRONDIR LES ANGLES */
+	padding: 5px 5px 5px 25px; /* ESPACEMENT A L'INTÉRIEUR DU BLOC */
+	box-shadow: 6px 6px 0px grey; /* OMBRE (INSET = A L'INTERIEUR DU BLOC)*/
+}
+
+nav {
+	background-image: url('../img/photo4.jpg'); /*METTRE UNE IMAGE OU DE LA COULEUR (COLOR) EN ARRIERE PLAN */
+	height: 60px;
+	padding: 10px;
+	margin-top: 60px;
+}
+
+
+li{
+	list-style-type: none; /*STYLE DES PUCES LISTES (circle, disc, hiragama, square, decimal) */
+	display: inline-block; /* FAIRE UNE LIGNE AVEC LES BLOCS */
+	margin-right: 20px;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none; /* RETIRER LIGNE SOUS LIEN */
+	color: blue;
+	font-size: 12px;
+}
+
+a:hover {
+	color: green;
+}
+
+h3 {
+	text-decoration: underline;
+	font-family: algerian;
+	color: grey;
+	margin-top: 10px;
+}
+
+h4 {
+	text-decoration: underline;
+	font-family: algerian;
+	color: grey;
+	margin-top: 80px;
+}
+
+p {
+	text-align: justify;
+	font-weight: bold;
+	width: 50%
+}
+
+table {
+	border-collapse: collapse;
+	text-align: center;
+	margin: auto; 	/* CENTRER LES ELEMENTS */
+	margin-top: 50px;	
+	margin-bottom: 30px;
+}
+
+td {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+footer {
+	font-size: 10px;
+	color: green;
+	display: inline-block; /*ALIGNER LES BLOCS */
+	padding: 15px;
+	margin-left: 775px;
+}
+
+#paragraphe {
+	float: right;
+	width: 50%;
+	border: 1px solid black;
+	padding: 1px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	height: 100px;
+	overflow: scroll; /* BARRE DE DÉFILEMENT (scroll, auto ou hidden, cache le text) */
+}
+
+#secondparagraphe {
+	width: 50%;
+	padding: 5px;
+	box-sizing: border-box;
+	word-wrap: break-word  /* GARDE ECRITURE DANS BLOC */
+}

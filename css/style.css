@@ -97,14 +97,15 @@ footer {
 	border: 1px solid black;
 	padding: 1px;
 	box-sizing: border-box;
-	margin-top: 20px;
+	margin-top: 10px;
 	height: 100px;
 	overflow: scroll; /* BARRE DE DÉFILEMENT (scroll, auto ou hidden, cache le text) */
 }
 
 #secondparagraphe {
 	width: 50%;
-	padding: 5px;
+	padding: 10px;
 	box-sizing: border-box;
 	word-wrap: break-word  /* GARDE ECRITURE DANS BLOC */
 }
+
